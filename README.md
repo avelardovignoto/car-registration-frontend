@@ -1,4 +1,4 @@
-# Car Registration - frontend
+# Car Registration - Frontend
 App para cadastrar carros
 
 # Stack
