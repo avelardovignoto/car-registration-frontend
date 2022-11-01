@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastro de Carros</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="header-in">
+                <button id="btn-add">Adicionar Carro</button>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <ul id="cars"></ul>
+            </section>
+        </main>
+
+        <div id="modal-form" class="modal-form">
+            <form id="form">
+                <input id="car" type="text" placeholder="Nome do carro" autocomplete="off" required />
+                <input class="btn" type="submit" value="Cadastrar" />
+                <input id="btn-reset" class="btn-reset" type="reset" value="Cancelar">
+            </form>
+        </div>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
